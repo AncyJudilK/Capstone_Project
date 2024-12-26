@@ -12,10 +12,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Streamlit Page Configuration
-st.set_page_config(page_title="Electric Vehicle Dashboard", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="Electric Vehicle Forecasting Dashboard", page_icon="🚗", layout="wide")
 
 # Title and Description
-st.title("🚗 Electric Vehicle Analysis Dashboard")
+st.title("🚗 Electric Vehicle Forecasting Dashboard")
 st.write("Analyze and forecast trends in electric vehicle data.")
 
 # Fetch Data from Flask API
