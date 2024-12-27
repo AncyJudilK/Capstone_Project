@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 
 # Streamlit Page Configuration
 st.set_page_config(
-    page_title="Electric Vehicle Forecasting Dashboard",
+    page_title="Electric Vehicle Dashboard",
     page_icon="🚗",
     layout="wide"
 )
