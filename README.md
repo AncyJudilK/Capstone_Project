@@ -111,6 +111,6 @@ streamlit run ev.py
 ---
 
 ## GitHub Repository
-Explore the project on GitHub: [Electric Vehicle Forecasting Dashboard](https://github.com/AncyJudilK/Python_Projects/tree/518e26273b1854fe98188107774017d2016c4897/Electric_Vehicle_Population)
+Explore the project on GitHub: [Electric Vehicle Forecasting Dashboard](https://github.com/AncyJudilK/Capstone_Project/tree/ccb10e35778157d076ef8f931492d08baec1fc1c/Electric_Vehicle_Population)
 
 ---
