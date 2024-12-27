@@ -12,7 +12,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Streamlit Page Configuration
-st.set_page_config(page_title="Electric Vehicle Forecasting Dashboard", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="Electric Vehicle Dashboard", page_icon="🚗", layout="wide")
 
 # Title and Description
 st.title("🚗 Electric Vehicle Forecasting Dashboard")
@@ -147,14 +147,12 @@ if st.button("Run Forecasting"):
                 # Metrics
                 mae = mean_absolute_error(y_test, y_pred)
                 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
-                mape = mean_absolute_percentage_error(y_test, y_pred)
                 r2 = r2_score(y_test, y_pred)
 
                 st.success("Forecasting completed!")
                 st.subheader("Model Performance Metrics")
                 st.metric("Mean Absolute Error (MAE)", f"{mae:.2f}")
                 st.metric("Root Mean Square Error (RMSE)", f"{rmse:.2f}")
-                st.metric("Mean Absolute Percentage Error (MAPE)", f"{mape:.2%}")
                 st.metric("R² Score", f"{r2:.2f}")
 
                 st.write("### Best Model Hyperparameters")
